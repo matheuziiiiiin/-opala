@@ -1,21 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.cabeçalho {
-    background-color: rgb(61, 189, 221);
-    color: rgb(12, 12, 12);
+.cabecalho {
+    background-color: #424E61;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 24px 0;
 }
 
-.cabeçalho-imagem{
-    width: 20%;
+.cabecalho-imagem{
+    width: 15%;
 }
 
-.cabeçalho-lista-item{
+.cabecalho-lista-item{
     display: inline-block;
-margin: 0 16px;
+    margin: 0 16px;
+    font-size: 20px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
 }
